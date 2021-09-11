@@ -1,7 +1,7 @@
 ---
-phone: '+49 1234 5678910'
-email: 'maxmustermann@gmail.com'
-address: 'Friesenstr. 123, Berlin, Germany'
+phone: ''
+email: 'JoshuaPFlores.design@gmail.com'
+address: 'Washington Metropolitan Area, United States'
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr,

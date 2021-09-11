@@ -5,6 +5,7 @@ import React from 'react';
 import Icon from './icon';
 import TextLink from './links/text-link';
 import TechList from './tech-list';
+import StyledSkewedSection from './skewed-section';
 import { mq } from './_shared/media';
 import { StyledContentLink } from './_shared/styled-content-link';
 import { StyledH1, StyledH2 } from './_shared/styled-headings';

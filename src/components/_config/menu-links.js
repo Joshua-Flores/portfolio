@@ -9,11 +9,11 @@ export const indexMenuLinks = [
     link: '/#projects',
     icon: 'terminal',
   },
-  {
-    name: 'Blog',
-    link: '/#blog',
-    icon: 'feather-alt',
-  },
+  // {
+  //   name: 'Blog',
+  //   link: '/#blog',
+  //   icon: 'feather-alt',
+  // },
   {
     name: 'Contact',
     link: '/#contact',
@@ -23,18 +23,18 @@ export const indexMenuLinks = [
 
 export const blogMenuLinks = [
   {
-    name: 'Portfolio',
+    name: 'Back to Portfolio',
     link: '/',
     icon: 'code',
   },
-  {
-    name: 'Blog',
-    link: '/blog',
-    icon: 'feather-alt',
-  },
-  {
-    name: 'Tags',
-    link: '/tags',
-    icon: 'tags',
-  },
+  // {
+  //   name: 'Blog',
+  //   link: '/blog',
+  //   icon: 'feather-alt',
+  // },
+  // {
+  //   name: 'Tags',
+  //   link: '/tags',
+  //   icon: 'tags',
+  // },
 ];

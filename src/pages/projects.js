@@ -4,7 +4,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import ProjectList from '../components/project-list';
 import SEO from '../components/seo';
-import { blogMenuLinks } from '../components/_config/menu-links';
+import { indexMenuLinks } from '../components/_config/menu-links';
 import { StyledH1 } from '../components/_shared/styled-headings';
 import { StyledFullHeightSection } from '../components/_shared/styled-section';
 import { StyledSeparator } from '../components/_shared/styled-separator';
@@ -18,7 +18,7 @@ const Projects = ({
   },
 }) => {
   return (
-    <Layout menuLinks={blogMenuLinks}>
+    <Layout menuLinks={indexMenuLinks}>
       <SEO title="Projects" />
       <StyledFullHeightSection>
         <StyledProjectsH1>Projects</StyledProjectsH1>

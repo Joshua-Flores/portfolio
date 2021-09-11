@@ -26,11 +26,16 @@ const Index = ({ data }) => {
     <Layout menuLinks={indexMenuLinks}>
       <SEO title="Home" />
       <Hero data={heroData} />
-      <Facts/>
       <About data={data.about} />
-      <CardGrid cards={data.cards.frontmatter.cards} description={data.cards.html} title="Our Features" id="features" />
+      <Facts />
+      <CardGrid
+        cards={data.cards.frontmatter.cards}
+        description={data.cards.html}
+        title="Technical skills"
+        id="features"
+      />
       <FeaturedProjects featured={data.featuredProjects.nodes} />
-      <RecentPosts data={data.blog.edges} />
+      {/*<RecentPosts data={data.blog.edges} />*/}
       <Contact data={data.contact} />
     </Layout>
   );
@@ -88,7 +93,7 @@ export const query = graphql`
     }
 
     featuredProjects: allMarkdownRemark(
-      limit: 3
+      limit: 4
       sort: { order: DESC, fields: frontmatter___date }
       filter: { fileAbsolutePath: { regex: "/content/projects/" }, frontmatter: { featured: { eq: true } } }
     ) {

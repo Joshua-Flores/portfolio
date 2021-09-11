@@ -52,6 +52,7 @@ const StyledDivider = styled.div`
 `;
 const StyledFeatureDescription = styled.p`
   font-size: 0.8rem;
+  text-align: center;
 `;
 
 const CardGrid = ({ cards, description, title, id = null }) => {

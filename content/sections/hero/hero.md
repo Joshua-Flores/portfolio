@@ -1,10 +1,8 @@
 ---
 introduction: "hey it's me"
-tagline: 'Design. Code. Experiment'
-cta_label: 'View Documentation'
-cta_link: 'https://github.com/Knochenmark/gatsby-starter-level-2/blob/master/README.md'
+tagline: 'Research. Design. Code.'
+cta_label: 'read more'
+cta_link: '#about'
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore
-et dolore magna aliquyam erat, sed diam voluptua.
+I'm a designer and web developer with a background in instructional design. I value simplicity, collaboration with others, and getting things done quickly. Check out what I've been up to below.

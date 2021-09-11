@@ -1,12 +1,12 @@
 module.exports = {
   pathPrefix: '/gatsby-starter-level-2',
   siteMetadata: {
-    title: 'Level 2',
-    titleTemplate: '%s · Level 2',
+    title: 'Joshua Flores Portfolio',
+    titleTemplate: '',
     image: '/images/logo.png',
-    author: 'Max Mustermann',
-    description: 'Gatsby starter to quickly setup your portfolio and boost it to the next level.',
-    url: 'https://knochenmark.github.io',
+    author: 'Joshua Flores',
+    description: 'Personal developer portfolio for Joshua Flores',
+    url: 'https://joshuaflores.rocks',
     paginationPageSize: 4, // Amount of posts displayed per listing page.
   },
   plugins: [

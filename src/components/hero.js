@@ -1,12 +1,13 @@
 import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import React from 'react';
-import ButtonLink from './links/button-link';
 import ScrollIndicator from './scroll-indicator';
 import { mq } from './_shared/media';
 import { StyledSection } from './_shared/styled-section';
+import Particles from 'react-tsparticles';
+import ButtonLink from './links/button-link';
 
-const StyledHeroSection = styled(StyledSection)`
+const HeroContainer = styled.div`
   min-height: calc(100vh - 2 * var(--header-height));
   position: relative;
 
@@ -14,6 +15,16 @@ const StyledHeroSection = styled(StyledSection)`
     min-height: calc(100vh - var(--header-height));
   }
 `;
+
+const HeroContents = styled(StyledSection)`
+  min-height: calc(100vh - 2 * var(--header-height));
+  position: relative;
+
+  ${mq.gt.sm} {
+    min-height: calc(100vh - var(--header-height));
+  }
+`;
+
 const StyledIntroduction = styled.div`
   color: var(--primary-color);
   font-weight: normal;
@@ -51,14 +62,100 @@ const Hero = ({ data }) => {
   const { introduction, author, tagline, description, ctaLink, ctaLabel } = data;
 
   return (
-    <StyledHeroSection>
-      <StyledIntroduction>{introduction}</StyledIntroduction>
-      <StyledAuthor>{author}</StyledAuthor>
-      <StyledTagline>{tagline}</StyledTagline>
-      <StyledDescription dangerouslySetInnerHTML={{ __html: description }} />
-      <ButtonLink label={ctaLabel} link={ctaLink} />
+    <HeroContainer>
+      <Particles
+        style={{ position: 'absolute' }}
+        options={{
+          background: {
+            color: {
+              value: 'hsla(38,20%,7%,1)',
+            },
+          },
+          fpsLimit: 30,
+          interactivity: {
+            detectsOn: 'canvas',
+            events: {
+              onClick: {
+                enable: true,
+                mode: 'push',
+              },
+              onHover: {
+                enable: true,
+                mode: 'repulse',
+              },
+              resize: true,
+            },
+            modes: {
+              bubble: {
+                distance: 400,
+                duration: 2,
+                opacity: 0.8,
+                size: 40,
+              },
+              push: {
+                quantity: 4,
+              },
+              repulse: {
+                distance: 200,
+                duration: 0.4,
+              },
+            },
+          },
+          particles: {
+            color: {
+              value: 'hsl(38,100%,70%)',
+              opacity: 1,
+              width: 1,
+            },
+            links: {
+              color: 'hsl(38,100%,20%)',
+              distance: 150,
+              enable: true,
+              opacity: 0.5,
+              width: 1,
+            },
+            collisions: {
+              enable: true,
+            },
+            move: {
+              direction: 'none',
+              enable: true,
+              outMode: 'bounce',
+              random: false,
+              speed: 1,
+              straight: false,
+            },
+            number: {
+              density: {
+                enable: true,
+                value_area: 800,
+              },
+              value: 80,
+            },
+            opacity: {
+              value: 0.5,
+            },
+            shape: {
+              type: 'circle',
+            },
+            size: {
+              random: true,
+              value: 5,
+            },
+          },
+          detectRetina: true,
+        }}
+      />
+      <HeroContents>
+        <StyledIntroduction>{introduction}</StyledIntroduction>
+        <StyledAuthor>{author}</StyledAuthor>
+        <StyledTagline>{tagline}</StyledTagline>
+        <StyledDescription dangerouslySetInnerHTML={{ __html: description }} />
+        <ButtonLink label={ctaLabel} link={ctaLink} />
+      </HeroContents>
+
       <ScrollIndicator />
-    </StyledHeroSection>
+    </HeroContainer>
   );
 };
 
