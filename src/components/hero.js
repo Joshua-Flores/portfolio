@@ -103,12 +103,12 @@ const Hero = ({ data }) => {
           },
           particles: {
             color: {
-              value: 'hsl(38,100%,70%)',
+              value: 'hsl(38,100%,80%)',
               opacity: 1,
               width: 1,
             },
             links: {
-              color: 'hsl(38,100%,20%)',
+              color: 'hsl(38,100%,50%)',
               distance: 150,
               enable: true,
               opacity: 0.5,
@@ -121,7 +121,7 @@ const Hero = ({ data }) => {
               direction: 'none',
               enable: true,
               outMode: 'bounce',
-              random: false,
+              random: true,
               speed: 1,
               straight: false,
             },
@@ -130,10 +130,10 @@ const Hero = ({ data }) => {
                 enable: true,
                 value_area: 800,
               },
-              value: 80,
+              value: 100,
             },
             opacity: {
-              value: 0.5,
+              value: 1,
             },
             shape: {
               type: 'circle',
