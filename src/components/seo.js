@@ -34,6 +34,7 @@ const SEO = ({ title, description, image, article }) => {
       {/* {seo.description && <meta name="twitter:description" content={seo.description} />} */}
       {/* {seo.image && <meta name="twitter:image" content={seo.image} />} */}
       <html lang="en" />
+      <script defer data-domain="joshuaflores.rocks" src="https://plausible.io/js/plausible.js"></script>
     </Helmet>
   );
 };

@@ -1,7 +1,7 @@
 ---
 featured: true
 date: '2021-09-10'
-title: 'JUST THE DARN RECIPE.com'
+title: 'JUST THE DARN RECIPE.COM'
 cover_image: './images/jtdr.jpeg'
 repo_link: 'https://github.com/Joshua-Flores/just-the-darn-recipe'
 demo_link: 'https://www.justthedarnrecipe.com'
