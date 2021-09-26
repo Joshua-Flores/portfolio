@@ -8,4 +8,4 @@ demo_link: 'https://www.justthedarnrecipe.com'
 techs: ['React', 'Gatsby', 'Material-UI', 'Contentful', 'Netlify', 'Plausible Analytics', 'Algolia Search']
 ---
 
-I really can't stand recipe websites so I created my own with an emphasis on brevity and blazing fast performance. This site uses Gatsby as a static site generator, with the content coming in from Contentful as a CMS. It's been quite a hit and receives around 300 page views per day.
+I really can't stand recipe websites so I created my own with an emphasis on brevity and blazing fast performance. This site uses Gatsby as a static site generator, with the content coming in from Contentful as a CMS. It's been quite a hit and receives around 250 page views per day.
