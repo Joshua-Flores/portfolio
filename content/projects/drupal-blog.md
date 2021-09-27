@@ -3,7 +3,7 @@ featured: true
 date: '2021-09-26'
 title: 'My Last Boss Was an English Teacher.org'
 cover_image: './images/drupal-blog.png'
-demo_link: 'https://www.mylastbosswasanenglishteacher.org'
+demo_link: 'https://mylastbosswasanenglishteacher.org'
 techs: ['Linux', 'Nginx', 'PHP', 'MariaDB', 'Drupal', 'Digital Ocean Server']
 ---
 
