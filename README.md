@@ -1,3 +1,11 @@
+# About
+
+This portfolio is a clone of the Gatsby Starter Portfolio: Level 2 which is linked below. 
+
+# What's different?
+Removed the blog functionality since it was irrelevant to what I was doing. Also included the 'React TS Particles' module which is powering the AI-looking web in the hero section. 
+
+
 [![Build Status](https://travis-ci.com/Knochenmark/gatsby-starter-level-2.svg?branch=master)](https://travis-ci.com/Knochenmark/gatsby-starter-level-2)
 [![GitHub issues](https://img.shields.io/github/issues/knochenmark/gatsby-starter-level-2.svg)](https://github.com/Knochenmark/gatsby-starter-level-2/issues)
 [![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/knochenmark/gatsby-starter-level-2.svg)](https://github.com/Knochenmark/gatsby-starter-level-2/pulls)
