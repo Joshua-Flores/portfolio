@@ -93,7 +93,7 @@ export const query = graphql`
     }
 
     featuredProjects: allMarkdownRemark(
-      limit: 4
+      limit: 5
       sort: { order: DESC, fields: frontmatter___date }
       filter: { fileAbsolutePath: { regex: "/content/projects/" }, frontmatter: { featured: { eq: true } } }
     ) {

@@ -1,6 +1,6 @@
 ---
 featured: true
-date: '2021-09-09'
+date: '2021-01-02'
 title: 'Valley Heat Podcast'
 cover_image: './images/valleyheat.jpeg'
 demo_link: 'https://www.valleyheatpodcast.com'

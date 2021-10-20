@@ -95,7 +95,7 @@ siteMetadata: {
   author: 'Max Mustermann',
   description: 'Gatsby starter to quickly setup your portfolio and boost it to the next level.',
   url: 'https://knochenmark.github.io',
-  paginationPageSize: 4, // Amount of posts displayed per listing page.
+  paginationPageSize: 5, // Amount of posts displayed per listing page.
 },
 ```
 

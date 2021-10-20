@@ -7,7 +7,7 @@ module.exports = {
     author: 'Joshua Flores',
     description: 'Personal developer portfolio for Joshua Flores',
     url: 'https://joshuaflores.rocks',
-    paginationPageSize: 4, // Amount of posts displayed per listing page.
+    paginationPageSize: 5, // Amount of posts displayed per listing page.
   },
   plugins: [
     `gatsby-plugin-stylus`,
