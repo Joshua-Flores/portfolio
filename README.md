@@ -1,13 +1,14 @@
-[![Build Status](https://travis-ci.com/Knochenmark/gatsby-starter-level-2.svg?branch=master)](https://travis-ci.com/Knochenmark/gatsby-starter-level-2)
-[![GitHub issues](https://img.shields.io/github/issues/knochenmark/gatsby-starter-level-2.svg)](https://github.com/Knochenmark/gatsby-starter-level-2/issues)
-[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/knochenmark/gatsby-starter-level-2.svg)](https://github.com/Knochenmark/gatsby-starter-level-2/pulls)
-![GitHub contributors](https://img.shields.io/github/contributors/knochenmark/gatsby-starter-level-2.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/knochenmark/gatsby-starter-level-2.svg)
+# About
 
-<p align="center">
-  <img alt="Level 2" src="./src/assets/logo.svg" width="140" />
-</p>
-<h1 align="center">
+This portfolio is a clone of the Gatsby Starter Portfolio: Level 2, details linked below. 
+
+# What's different in this repo from the original?
+Removed the blog functionality since it was irrelevant to what I was doing. Also included the 'React TS Particles' module which is powering the AI-looking web in the hero section. 
+
+Now on to the boilerplate...
+
+
+<h1>
   Gatsby Starter Portfolio: Level 2
 </h1>
 
