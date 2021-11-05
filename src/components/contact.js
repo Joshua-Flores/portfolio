@@ -81,7 +81,9 @@ const Contact = ({ data }) => {
               <Icon icon="envelope" />
               <StyledFormContainer>
                 <StyledForm>E-Mail</StyledForm>
-                <span>{email}</span>
+                <span>
+                  <a href={'mailto:' + email}>JoshuaPFlores.design@gmail.com</a>
+                </span>
               </StyledFormContainer>
             </StyledContainer>
           )}

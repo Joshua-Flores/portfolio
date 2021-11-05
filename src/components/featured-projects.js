@@ -35,15 +35,12 @@ const StyledProjectInfoContainer = styled.section`
   position: relative;
 `;
 const StyledDescription = styled.section`
-  ${contentBox}
-  max-height: 180px;
   position: relative;
-  padding: 10px;
 
   > p {
     height: 100%;
     margin: 0;
-    font-size: 0.8rem;
+    font-size: 1rem;
     overflow: hidden;
   }
 `;

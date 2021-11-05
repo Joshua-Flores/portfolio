@@ -8,4 +8,4 @@ demo_link: 'https://www.justthedarnrecipe.com'
 techs: ['React', 'Gatsby', 'Material-UI', 'Contentful', 'Netlify', 'Plausible Analytics', 'Algolia Search']
 ---
 
-I really can't stand recipe websites so I created my own with an emphasis on brevity and an awesome user experience. This site uses Gatsby as a static site generator, with the content coming in from Contentful as a CMS. It's been quite a hit and receives around 6,500 page views per month.
+I really can't stand recipe websites, so I created my own with an emphasis on the key user experience features that people really want when they visit a site like this. This site went viral on reddit in 2020. Direct feedback and passive analytics showed that users wanted imperial and metric measurements, search, and a way to browse content. Check out the site to see how those features were implemented.

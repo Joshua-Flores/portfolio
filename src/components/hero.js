@@ -25,10 +25,6 @@ const HeroContents = styled(StyledSection)`
   }
 `;
 
-const StyledIntroduction = styled.div`
-  color: var(--primary-color);
-  font-weight: normal;
-`;
 const StyledAuthor = styled.h1`
   margin-left: -4px !important;
   font-size: 40px;
@@ -56,10 +52,11 @@ const StyledDescription = styled.div`
   margin-top: 0.5rem;
   width: 100%;
   max-width: 500px;
+  color: white;
 `;
 
 const Hero = ({ data }) => {
-  const { introduction, author, tagline, description, ctaLink, ctaLabel } = data;
+  const { author, tagline, description, ctaLink, ctaLabel } = data;
 
   return (
     <HeroContainer>
@@ -68,7 +65,7 @@ const Hero = ({ data }) => {
         options={{
           background: {
             color: {
-              value: 'hsla(38,20%,7%,1)',
+              value: 'hsla(0,0%,5%,1)',
             },
           },
           fpsLimit: 30,
@@ -147,7 +144,6 @@ const Hero = ({ data }) => {
         }}
       />
       <HeroContents>
-        <StyledIntroduction>{introduction}</StyledIntroduction>
         <StyledAuthor>{author}</StyledAuthor>
         <StyledTagline>{tagline}</StyledTagline>
         <StyledDescription dangerouslySetInnerHTML={{ __html: description }} />

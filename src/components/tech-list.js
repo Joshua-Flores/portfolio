@@ -12,7 +12,7 @@ const StyledTag = styled.span`
   display: flex;
   align-items: center;
   white-space: nowrap;
-  font-size: 0.8rem;
+  font-size: 1 rem;
 
   color: var(--body-color);
   margin: 0 1rem 0.5rem 0;

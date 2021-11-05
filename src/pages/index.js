@@ -28,13 +28,14 @@ const Index = ({ data }) => {
       <Hero data={heroData} />
       <About data={data.about} />
       <Facts />
+
+      <FeaturedProjects featured={data.featuredProjects.nodes} />
       <CardGrid
         cards={data.cards.frontmatter.cards}
         description={data.cards.html}
-        title="Technical skills"
+        title="Tools and Technologies"
         id="features"
       />
-      <FeaturedProjects featured={data.featuredProjects.nodes} />
       {/*<RecentPosts data={data.blog.edges} />*/}
       <Contact data={data.contact} />
     </Layout>
@@ -57,7 +58,6 @@ export const query = graphql`
 
     hero: markdownRemark(fileAbsolutePath: { regex: "/content/sections/hero/" }) {
       frontmatter {
-        introduction
         tagline
         cta_label
         cta_link

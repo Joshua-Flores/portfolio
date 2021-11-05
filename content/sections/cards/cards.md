@@ -1,5 +1,9 @@
 ---
 cards:
+  - label: Figma
+    icon: figma
+    prefix: fab
+    description: Collaborative UI design and prototyping tool
   - label: HTML
     icon: html5
     prefix: fab
@@ -16,10 +20,6 @@ cards:
     icon: react
     prefix: fab
     description: Front-end Javascript library for building user interfaces
-  - label: Gatsby
-    icon: code
-    prefix: fas
-    description: React-based framework for building lightning fast static sites
   - label: Wordpress
     icon: wordpress
     prefix: fab
@@ -36,14 +36,6 @@ cards:
     icon: linux
     prefix: fab
     description: Everyone's favorite server OS that just won't quit
-  - label: PHP
-    icon: php
-    prefix: fab
-    description: Server-side web development language
-  - label: mySQL
-    icon: database
-    prefix: fas
-    description: Relational database management system
 ---
 
-Here are some technologies I've become familiar with while building products:
+Here are the tools and technologies I frequently use during the design and development process:
