@@ -53,6 +53,7 @@ const StyledDescription = styled.div`
   width: 100%;
   max-width: 500px;
   color: white;
+  background-color: hsla(0, 0%, 5%, 0.5);
 `;
 
 const Hero = ({ data }) => {
