@@ -13,12 +13,13 @@ const StyledLogoSection = styled.section`
 const StyledFactNumber = styled.section`
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 0rem;
 
   & > .number {
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
+    color: white;
   }
 
   & > .fact {

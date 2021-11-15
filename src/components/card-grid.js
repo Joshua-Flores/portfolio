@@ -51,7 +51,7 @@ const StyledDivider = styled.div`
   margin-bottom: 1rem;
 `;
 const StyledFeatureDescription = styled.p`
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-align: center;
 `;
 

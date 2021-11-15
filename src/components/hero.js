@@ -31,6 +31,7 @@ const StyledAuthor = styled.h1`
   line-height: 1.1;
   margin: 0;
   word-break: break-word;
+  font-weight: 800;
 
   ${mq.gt.xs} {
     font-size: 80px;
@@ -41,8 +42,10 @@ const StyledTagline = styled.h2`
   font-size: 40px;
   line-height: 1.1;
   margin: 0;
-  color: var(--primary-color);
+  color: hsla(0, 0%, 0%, 0);
   word-break: break-word;
+  font-weight: 800;
+  -webkit-text-stroke: 2px var(--primary-color);
 
   ${mq.gt.xs} {
     font-size: 80px;
@@ -51,8 +54,9 @@ const StyledTagline = styled.h2`
 const StyledDescription = styled.div`
   margin-top: 0.5rem;
   width: 100%;
-  max-width: 500px;
+  max-width: 800px;
   color: white;
+  font-size: 20px;
   background-color: hsla(0, 0%, 5%, 0.5);
 `;
 
