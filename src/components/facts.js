@@ -3,7 +3,7 @@ import StyledSkewedSection from './skewed-section';
 import styled from '@emotion/styled';
 import { StyledH1 } from './_shared/styled-headings';
 // Core modules imports are same as usual
-import { Navigation, Pagination } from 'swiper';
+import { Keyboard, Navigation, Pagination } from 'swiper';
 // Direct React component imports
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react.js';
 
@@ -14,6 +14,7 @@ import 'swiper/modules/pagination/pagination.min.css'; // Pagination module
 
 const SlideContent = styled.div`
   margin: auto;
+  max-width: 600px;
   padding: 0px 0px 24px 0px;
 `;
 
@@ -22,10 +23,14 @@ const creativeProcess = () => {
     <StyledSkewedSection angle={10}>
       <StyledH1>My Creative Process</StyledH1>
       <Swiper
-        modules={[Pagination]}
+        modules={[Keyboard, Navigation, Pagination]}
         spaceBetween={50}
         slidesPerView={1}
         grabCursor
+        navigation
+        keyboard={{
+          enabled: true,
+        }}
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
         onSlideChange={() => console.log('slide change')}
